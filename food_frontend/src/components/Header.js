@@ -5,6 +5,7 @@ import React from 'react';
  * PUBLIC_INTERFACE
  */
 export default function Header({ title = 'Foodgo', subtitle = 'Order your favourite food!', avatarSrc = '' }) {
+  // avatarSrc should be an absolute public path like "/assets/figmaimages/figma_image_1_54.png"
   return (
     <div>
       <div className="abs text-1-50" role="heading" aria-level="1">{title}</div>

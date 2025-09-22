@@ -13,4 +13,4 @@ This converts assets/home-screen-1-49.html into a modular React app.
 - src/components/FavoritesSidebar.js: Simple favorites list placeholder
 - src/components/FoodDetailModal.js: Modal scaffold for item details
 
-Images are referenced from /assets/figmaimages/... which should be placed in the CRA public folder (deployment agent maps /assets accordingly).
+Images are referenced from /assets/figmaimages/... which should be placed in the CRA public folder (food_frontend/public/assets/figmaimages). In React (CRA), absolute src="/assets/..." resolves to this public folder at runtime.

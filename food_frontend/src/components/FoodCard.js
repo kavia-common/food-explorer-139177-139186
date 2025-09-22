@@ -16,7 +16,7 @@ export default function FoodCard({
   ratingTextClass = 'text-1-86',
   title = '',
   rating = '',
-  imageSrc = '',
+  imageSrc = '', // Prefer absolute public path: "/assets/figmaimages/<file>.png" or pass an imported image from src/assets
   onClick = () => {}
 }) {
   return (

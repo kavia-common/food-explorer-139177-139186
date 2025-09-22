@@ -23,6 +23,7 @@ function App() {
   const toggleTheme = () => setTheme((t) => (t === 'light' ? 'dark' : 'light'));
 
   // Static data mapped from original HTML into state so it's ready for dynamic updates
+  // Images are served from CRA public: public/assets/figmaimages; reference with absolute paths starting with /assets/figmaimages/...
   const items = useMemo(() => ([
     {
       id: '1',
