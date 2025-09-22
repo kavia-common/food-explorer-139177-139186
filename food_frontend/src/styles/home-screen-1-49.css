@@ -1,0 +1,366 @@
+/* Root frame */
+#frame-1-49 {
+  left: 0px;
+  top: 0px;
+  width: 430px;
+  height: 932px;
+  background: var(--color-ffffff); /* style_0 background_color */
+  border-radius: var(--radius-35); /* style_0 border_radius 35 */
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Helper: convert global figma coordinates to local by subtracting frame origin (-1010, -1006) */
+:root { --frame-origin-x: -1010; --frame-origin-y: -1006; }
+/* All absolute children of frame use explicit pixel values computed from JSON */
+
+/* Title: Foodgo (1:50) at (-991, -978) -> left 19, top 28 */
+.text-1-50 {
+  left: 19px;
+  top: 28px;
+  width: 129px;
+  height: 61px;
+  font-family: var(--typo-5-family);
+  font-size: var(--typo-5-size);
+  font-weight: var(--typo-5-weight);
+  line-height: var(--typo-5-line-height);
+  color: var(--typo-5-color);
+}
+
+/* Subtitle: Order your favourite food! (1:51) at (-991, -917) -> left 19, top 89 */
+.text-1-51 {
+  left: 19px;
+  top: 89px;
+  width: 238px;
+  height: 27px;
+  font-family: var(--typo-6-family);
+  font-size: var(--typo-6-size);
+  font-weight: var(--typo-6-weight);
+  line-height: var(--typo-6-line-height);
+  color: var(--typo-6-color);
+}
+
+/* Mask group (1:52) at (-659, -978) -> left 351, top 28; 60x60 */
+.group-1-52 {
+  left: 351px;
+  top: 28px;
+  width: 60px;
+  height: 60px;
+}
+.rect-1-53 {
+  left: 0px;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  background: var(--color-d9d9d9); /* style_3 */
+  border-radius: var(--radius-20);
+}
+.img-1-54 {
+  left: -29px; /* -688 - (-659) */
+  top: -3px;  /* -981 - (-978) */
+  width: 106px;
+  height: 73px;
+  object-fit: cover;
+}
+
+/* Search group container (1:55) at (-991,-843)-> left 19, top 163 ; 392x60 */
+.group-1-55 {
+  left: 19px;
+  top: 163px;
+  width: 392px;
+  height: 60px;
+}
+/* Search input rectangle (1:56) at (-991,-843) within root -> same left as group; 319x60 */
+.rect-1-56 {
+  left: 0px;
+  top: 0px;
+  width: 319px;
+  height: 60px;
+  background: var(--color-ffffff);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-0); /* style_15 shadow_0 */
+}
+/* Right square button group (1:57) 60x60 positioned at group left + ( -659 - -991 = 332 ) */
+.group-1-57 {
+  left: 332px;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+}
+.rect-1-58 {
+  left: 0px;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  background: var(--color-ef2a39);
+  border-radius: var(--radius-20);
+}
+/* settings-sliders icon placeholder 24x24 at (-641,-825) -> relative to root.
+   Relative within group: (-641 - -659 = 18) left, (-825 - -843 = 18) top */
+.icon-1-59 {
+  left: 18px;
+  top: 18px;
+  width: 24px;
+  height: 24px;
+  background: var(--color-ffffff); /* style_6 */
+  border-radius: 4px; /* placeholder to visualize icon area */
+}
+
+/* Left cluster (1:60) at (-971,-825) -> group-relative left 20, top 18; size 104x24 */
+.group-1-60 {
+  left: 20px;
+  top: 18px;
+  width: 104px;
+  height: 24px;
+}
+.icon-1-61 {
+  left: 0px;
+  top: 0px;
+  width: 24px;
+  height: 24px;
+  background: var(--color-ffffff); /* icon area */
+  border-radius: 4px;
+}
+.text-1-62 {
+  left: 48px; /* -923 - -971 = 48 */
+  top: 1px;  /* -824 - -825 = 1 */
+  width: 56px;
+  height: 21px;
+  font-family: var(--typo-7-family);
+  font-size: var(--typo-7-size);
+  font-weight: var(--typo-7-weight);
+  line-height: var(--typo-7-line-height);
+  color: var(--typo-7-color);
+}
+
+/* Categories row outer frame (1:63) at (-1011,-742)-> left -1, top 264 ; 412x50 */
+.frame-1-63 {
+  left: -1px;
+  top: 264px;
+  width: 412px;
+  height: 50px;
+}
+/* Inner frame (1:64) at (-991,-742)-> within root; relative to frame-1-63 left = 20, top=0 */
+.frame-1-64 {
+  left: 20px;
+  top: 0px;
+  width: 467px;
+  height: 50px;
+}
+
+/* Category: All (1:65) at (-991,-742) -> within inner frame at 0,0 size 75x50 */
+.group-1-65 { left: 0px; top: 0px; width: 75px; height: 50px; }
+.rect-1-66 {
+  left: 0px; top: 0px; width: 75px; height: 50px;
+  background: var(--color-ef2a39); border-radius: var(--radius-20);
+  box-shadow: var(--shadow-1);
+}
+.text-1-67 {
+  left: 27px; /* -964 - -991 */
+  top: 15px;  /* -727 - -742 */
+  width: 20px; height: 19px;
+  font-family: var(--typo-8-family);
+  font-size: var(--typo-8-size);
+  font-weight: var(--typo-8-weight);
+  line-height: var(--typo-8-line-height);
+  color: var(--typo-8-color);
+  text-align: left;
+}
+
+/* Category: Combos (1:68) at (-902,-742) -> inner frame left 89, top 0; 120x50 */
+.group-1-68 { left: 89px; top: 0px; width: 120px; height: 50px; }
+.rect-1-69 {
+  left: 0px; top: 0px; width: 120px; height: 50px;
+  background: var(--color-f3f4f6); border-radius: var(--radius-20);
+}
+.text-1-70 {
+  left: 28px; top: 15px; width: 64px; height: 19px;
+  font-family: var(--typo-9-family);
+  font-size: var(--typo-9-size);
+  font-weight: var(--typo-9-weight);
+  line-height: var(--typo-9-line-height);
+  color: var(--typo-9-color);
+}
+
+/* Category: Sliders (1:71) at (-768,-742) -> inner frame left 223, 0; 120x50 */
+.group-1-71 { left: 223px; top: 0px; width: 120px; height: 50px; }
+.rect-1-72 {
+  left: 0px; top: 0px; width: 120px; height: 50px;
+  background: var(--color-f3f4f6); border-radius: var(--radius-20);
+}
+.text-1-73 {
+  left: 33px; top: 16px; width: 53px; height: 19px;
+  font-family: var(--typo-9-family);
+  font-size: var(--typo-9-size);
+  font-weight: var(--typo-9-weight);
+  line-height: var(--typo-9-line-height);
+  color: var(--typo-9-color);
+}
+
+/* Category: Classic (1:74) at (-634,-742) -> inner frame left 357, 0; 110x50 */
+.group-1-74 { left: 357px; top: 0px; width: 110px; height: 50px; }
+.rect-1-75 {
+  left: 0px; top: 0px; width: 110px; height: 50px;
+  background: var(--color-f3f4f6); border-radius: var(--radius-20);
+}
+.text-1-76 {
+  left: 27px; top: 15px; width: 56px; height: 19px;
+  font-family: var(--typo-9-family);
+  font-size: var(--typo-9-size);
+  font-weight: var(--typo-9-weight);
+  line-height: var(--typo-9-line-height);
+  color: var(--typo-9-color);
+}
+
+/* Grid container group (1:77) at (-991,-651) -> left 19, top 355; 392x481 */
+.group-1-77 { left: 19px; top: 355px; width: 392px; height: 481px; }
+
+/* Card 1 (1:78) at (-991,-651) -> left 0, top 0; 185x225 */
+.group-1-78 { left: 0px; top: 0px; width: 185px; height: 225px; }
+.rect-1-79 {
+  left: 0px; top: 0px; width: 185px; height: 225px;
+  background: var(--color-ffffff); border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+.icon-1-80 { /* heart outline on card */
+  left: 150px; top: 186px; width: 24px; height: 24px;
+  background: var(--color-ffffff);
+  border-radius: 4px;
+}
+.text-1-81 {
+  left: 11px; top: 136px; width: 117px; height: 44px;
+  font-family: var(--typo-10-family);
+  font-size: var(--typo-10-size);
+  font-weight: var(--typo-10-weight);
+  line-height: var(--typo-10-line-height);
+  color: var(--typo-10-color);
+}
+.ellipse-1-82 {
+  left: 47px; top: 109px; width: 91px; height: 11px;
+  background: var(--color-000000);
+  border-radius: 50%;
+  opacity: 1; /* shadow ellipse mimic */
+}
+.img-1-83 {
+  left: 32px; top: 5px; width: 120px; height: 121.7578125px; object-fit: cover;
+}
+.group-1-84 { left: 11px; top: 189px; width: 44px; height: 22px; }
+.icon-1-85 { left: 0px; top: 3px; width: 16px; height: 16px; background: var(--color-ff9633); border-radius: 2px; }
+.text-1-86 {
+  left: 21px; top: 0px; width: 23px; height: 22px;
+  font-family: var(--typo-11-family);
+  font-size: var(--typo-11-size);
+  font-weight: var(--typo-11-weight);
+  line-height: var(--typo-11-line-height);
+  color: var(--typo-11-color);
+}
+
+/* Card 2 (1:87) at (-784,-651) -> left 207, top 0 */
+.group-1-87 { left: 207px; top: 0px; width: 185px; height: 225px; }
+.rect-1-88 {
+  left: 0px; top: 0px; width: 185px; height: 225px;
+  background: var(--color-ffffff); border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+.icon-1-89 { left: 150px; top: 186px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+.text-1-90 {
+  left: 11px; top: 136px; width: 117px; height: 44px;
+  font-family: var(--typo-10-family); font-size: var(--typo-10-size); font-weight: var(--typo-10-weight); line-height: var(--typo-10-line-height); color: var(--typo-10-color);
+}
+.ellipse-1-91 { left: 48px; top: 110px; width: 91px; height: 11px; background: var(--color-000000); border-radius: 50%; }
+.img-1-92 { left: 32px; top: 11px; width: 120px; height: 120px; object-fit: cover; }
+.group-1-93 { left: 11px; top: 189px; width: 44px; height: 22px; }
+.icon-1-94 { left: 0px; top: 3px; width: 16px; height: 16px; background: var(--color-ff9633); border-radius: 2px; }
+.text-1-95 {
+  left: 21px; top: 0px; width: 23px; height: 22px;
+  font-family: var(--typo-11-family); font-size: var(--typo-11-size); font-weight: var(--typo-11-weight); line-height: var(--typo-11-line-height); color: var(--typo-11-color);
+}
+
+/* Card 3 (1:96) at (-991,-395) -> left 0, top 256 */
+.group-1-96 { left: 0px; top: 256px; width: 185px; height: 225px; }
+.rect-1-97 {
+  left: 0px; top: 0px; width: 185px; height: 225px;
+  background: var(--color-ffffff); border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+.icon-1-98 { left: 150px; top: 186px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+.text-1-99 {
+  left: 11px; top: 136px; width: 117px; height: 44px;
+  font-family: var(--typo-10-family); font-size: var(--typo-10-size); font-weight: var(--typo-10-weight); line-height: var(--typo-10-line-height); color: var(--typo-10-color);
+}
+.ellipse-1-100 { left: 59px; top: 118px; width: 110px; height: 15.7609148026px; background: var(--color-000000); border-radius: 999px; }
+.img-1-101 { left: 20px; top: 0px; width: 150px; height: 137.700012207px; object-fit: cover; }
+.group-1-102 { left: 11px; top: 189px !important; width: 44px; height: 22px; position: absolute; }
+.group-1-102 .icon-1-103 { left: 0px; top: 3px; width: 16px; height: 16px; background: var(--color-ff9633); border-radius: 2px; }
+.group-1-102 .text-1-104 {
+  left: 21px; top: 0px; width: 23px; height: 22px; position: absolute;
+  font-family: var(--typo-11-family); font-size: var(--typo-11-size); font-weight: var(--typo-11-weight); line-height: var(--typo-11-line-height); color: var(--typo-11-color);
+}
+
+/* Card 4 (1:105) at (-784,-395) -> left 207, top 256 */
+.group-1-105 { left: 207px; top: 256px; width: 185px; height: 225px; }
+.rect-1-106 {
+  left: 0px; top: 0px; width: 185px; height: 225px;
+  background: var(--color-ffffff); border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+.icon-1-107 { left: 150px; top: 186px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+.text-1-108 {
+  left: 11px; top: 136px; width: 158px; height: 44px;
+  font-family: var(--typo-10-family); font-size: var(--typo-10-size); font-weight: var(--typo-10-weight); line-height: var(--typo-10-line-height); color: var(--typo-10-color);
+}
+.ellipse-1-109 { left: 48px; top: 121px; width: 112px; height: 11px; background: var(--color-000000); border-radius: 999px; }
+.img-1-110 { left: 30px; top: 25px; width: 145px; height: 100.59375px; object-fit: cover; }
+.group-1-111 { left: 11px; top: 189px; width: 44px; height: 22px; }
+.icon-1-112 { left: 0px; top: 3px; width: 16px; height: 16px; background: var(--color-ff9633); border-radius: 2px; }
+.text-1-113 {
+  left: 21px; top: 0px; width: 23px; height: 22px;
+  font-family: var(--typo-11-family); font-size: var(--typo-11-size); font-weight: var(--typo-11-weight); line-height: var(--typo-11-line-height); color: var(--typo-11-color);
+}
+.icon-1-114 { left: 150.820556641px; top: 100.5px; width: 26.6794128428px; height: 27px; background: var(--color-ffffff); border-radius: 50%; }
+
+/* Bottom group (1:115) at (-1029,-150) -> left -19, top 856; 456x90 */
+.group-1-115 { left: -19px; top: 856px; width: 456px; height: 90px; }
+.boolean-1-116 { left: 0px; top: 0px; width: 456px; height: 90px; }
+.vect-1-117 {
+  left: 0px; top: 0px; width: 456px; height: 90px;
+  background: var(--color-ef2a39);
+}
+.ellipse-1-118 {
+  left: 193px; top: -41px; width: 82px; height: 82px;
+  background: var(--color-d9d9d9); border-radius: 50%;
+  box-shadow: var(--shadow-3);
+}
+.group-1-119 { left: 122px; top: 0px; width: 224px; height: 82px; }
+.ellipse-1-120 { left: 0px; top: 0px; width: 82px; height: 82px; background: var(--color-ef2a39); border-radius: 50%; }
+.ellipse-1-121 { left: 142px; top: 0px; width: 82px; height: 82px; background: var(--color-ef2a39); border-radius: 50%; }
+
+/* Bottom icons */
+.icon-1-122 { left: 376px; top: 873px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+.icon-1-123 { left: 31px; top: 873px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+.icon-1-124 { left: 113px; top: 873px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+.icon-1-125 { left: 294px; top: 873px; width: 24px; height: 24px; background: var(--color-ffffff); border-radius: 4px; }
+
+/* Small dot (1:126) at (-969,-101) -> left 41, top 905 size 4 */
+.ellipse-1-126 { left: 41px; top: 905px; width: 4px; height: 4px; background: var(--color-ffffff); border-radius: 50%; }
+
+/* Floating action circular (1:127) at (-831,-198) -> left 179, top 808; size 72 */
+.group-1-127 { left: 179px; top: 808px; width: 72px; height: 72px; }
+.ellipse-1-128 {
+  left: 0px; top: 0px; width: 72px; height: 72px; background: var(--color-ef2a39); border-radius: 50%;
+  box-shadow: var(--shadow-3);
+}
+.group-1-129 { left: 28px; top: 28px; width: 16px; height: 16px; }
+.line-1-130 {
+  left: 0px; top: 8px; width: 16px; height: 0px;
+  border-top: 5px solid var(--color-ffffff); /* style_14 border */
+}
+.line-1-131 {
+  left: 8px; top: 0px; width: 0px; height: 16px;
+  border-left: 5px solid var(--color-ffffff); /* style_14 border */
+}
+
+/* Positioning primitives */
+#frame-1-49 > .abs,
+#frame-1-49 .abs { position: absolute; }
